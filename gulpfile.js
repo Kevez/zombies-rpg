@@ -1,5 +1,10 @@
 var gulp = require('gulp');
-var concat = require('gulp-concat');
+var concat = require('gulp-concat'),
+    opn = require('opn'),
+    serverConfig = {
+        host: 'localhost',
+        port: 5555
+    };
 
 gulp.task('concat-js', function() {
     return gulp.src([
@@ -11,8 +16,12 @@ gulp.task('concat-js', function() {
         .pipe(gulp.dest('./dist/'));
 });
 
+gulp.task('open-browser', function () {
+    opn('http://' + serverConfig.host + ':' + serverConfig.port);
+});
+
 gulp.task('watch', function () {
     gulp.watch('./components/**/*.js', ['concat-js']);
 });
 
-gulp.task('default', ['concat-js', 'watch']);
+gulp.task('default', ['open-browser', 'concat-js', 'watch']);
