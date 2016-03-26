@@ -1,0 +1,18 @@
+.nav {
+    background: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.nav li {
+    color: #fff;
+    display: inline-block;
+    width: 25%;
+}
+
+.nav li a {
+    display: block;
+    padding: 2.5rem 0;
+    text-align: center;;
+}

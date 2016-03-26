@@ -1,0 +1,80 @@
+@import 'components/header/style.css';
+@import 'components/menu/style.css';
+@import 'components/timer/style.css';
+@import 'components/game-controls/style.css';
+
+@font-face {
+    font-family: 'silkscreennormal';
+    src: url('slkscr-webfont.eot?#iefix') format('embedded-opentype'),
+    url('slkscr-webfont.woff') format('woff'),
+    url('slkscr-webfont.ttf') format('truetype'),
+    url('slkscr-webfont.svg#silkscreennormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    font-family: silkscreennormal, sans-serif;
+    font-size: 1.2rem;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: #B9287C;
+}
+
+h1 {
+    color: #fff;
+}
+
+p {
+    color: #fff;
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+span {
+    color: #fff;
+}
+
+a {
+    color: #88aabb;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #aaccdd;
+}
+
+h1 {
+    margin: 0;
+    padding-bottom: 2rem;
+}
+
+button {
+    border: 0;
+    font-size: 2rem;
+    min-width: 15rem;
+    outline: 0;
+    padding: 2.5rem;
+}
+
+select {
+    padding: 1rem;
+}
+
+td {
+    color: #fff;
+}
+
+#container {
+    margin: 0 auto;
+}
+
+#main {
+    padding: 1rem;
+}

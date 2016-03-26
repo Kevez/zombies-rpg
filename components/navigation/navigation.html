@@ -1,0 +1,7 @@
+<nav class="nav">
+    <ul>
+        <li ng-repeat="link in NavigationCtrl.links">
+            <a ng-click="NavigationCtrl.changeLocation($index)" ng-bind="link"></a>
+        </li>
+    </ul>
+</nav>

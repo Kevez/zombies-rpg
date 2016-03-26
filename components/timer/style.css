@@ -1,0 +1,8 @@
+.timer {
+    font-size: 5rem;
+}
+
+.timer-bar {
+    background: red;
+    height: 2rem;
+}

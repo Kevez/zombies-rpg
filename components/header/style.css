@@ -1,0 +1,10 @@
+.header {
+    background: #9c957b;
+    width: 100%;
+    height: 75px;
+}
+
+.header ul li {
+    float: left;
+    width: 33.33333%;
+}
