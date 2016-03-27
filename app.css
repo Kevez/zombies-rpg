@@ -1,12 +1,11 @@
 @import 'components/header/style.css';
-@import 'components/menu/style.css';
+@import 'components/navigation/style.css';
 @import 'components/timer/style.css';
-@import 'components/game-controls/style.css';
 
 @font-face {
     font-family: 'silkscreennormal';
     src: url('slkscr-webfont.eot?#iefix') format('embedded-opentype'),
-    url('slkscr-webfont.woff') format('woff'),
+    url('./slkscr-webfont.woff') format('woff'),
     url('slkscr-webfont.ttf') format('truetype'),
     url('slkscr-webfont.svg#silkscreennormal') format('svg');
     font-weight: normal;
@@ -19,26 +18,20 @@
     font-size: 1.2rem;
 }
 
-html {
-    font-size: 62.5%;
-}
-
 body {
-    background: #B9287C;
+    background: #fff;
 }
 
 h1 {
-    color: #fff;
+    color: #000;
 }
 
 p {
-    color: #fff;
-    margin: 0;
-    padding-bottom: 1rem;
+    color: #000;
 }
 
 span {
-    color: #fff;
+    color: #000;
 }
 
 a {
@@ -48,11 +41,6 @@ a {
 
 a:hover {
     color: #aaccdd;
-}
-
-h1 {
-    margin: 0;
-    padding-bottom: 2rem;
 }
 
 button {

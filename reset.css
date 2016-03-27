@@ -1,0 +1,28 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    margin: 0;
+    padding-bottom: 2rem;
+}
+
+p {
+    margin: 0;
+    padding-bottom: 1rem;
+}

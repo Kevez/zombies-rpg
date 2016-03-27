@@ -7,8 +7,8 @@
         controller: ['EventManager', function (EventManager) {
             this.links = [
                 'Home',
-                'Quests',
-                'Battle',
+                'Missions',
+                'Fight',
                 'Recruit'
             ];
 
